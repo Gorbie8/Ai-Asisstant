@@ -1,0 +1,45 @@
+        _____             __ _                       _   _             
+       / ____|           / _(_)                     | | (_)            
+      | |     ___  _ __ | |_ _  __ _ _   _ _ __ __ _| |_ _  ___  _ __  
+      | |    / _ \| '_ \|  _| |/ _` | | | | '__/ _` | __| |/ _ \| '_ \ 
+      | |___| (_) | | | | | | | (_| | |_| | | | (_| | |_| | (_) | | | |
+       \_____\___/|_| |_|_| |_|\__, |\__,_|_|  \__,_|\__|_|\___/|_| |_|
+                                __/ |                                  
+                               |___/                                   
+    
+                                                                                                                                                                                                   
+  _   _       _    __        __            _    ____             __ _       
+ | | | | ___ | |_  \ \      / /__  _ __ __| |  / ___|___  _ __  / _(_) __ _ 
+ | |_| |/ _ \| __|  \ \ /\ / / _ \| '__/ _` | | |   / _ \| '_ \| |_| |/ _` |
+ |  _  | (_) | |_    \ V  V / (_) | | | (_| | | |__| (_) | | | |  _| | (_| |
+ |_| |_|\___/ \__|    \_/\_/ \___/|_|  \__,_|  \____\___/|_| |_|_| |_|\__, |
+                                                                      |___/ 
+
+Amount of time it will record after detecting sound, change if your hot word is quite long:
+1.5
+
+Level which you want the noise threshold to be. range is from 0 to 33. Normal talking is about level 5 - 6:
+6
+
+Hot Words. Lower case only, use words that the analyser could confuse main word with:
+["jarvis", "elvis", "jealous"]
+
+
+     _            _     _              _      ____             __ _       
+    / \   ___ ___(_)___| |_ __ _ _ __ | |_   / ___|___  _ __  / _(_) __ _ 
+   / _ \ / __/ __| / __| __/ _` | '_ \| __| | |   / _ \| '_ \| |_| |/ _` |
+  / ___ \\__ \__ \ \__ \ || (_| | | | | |_  | |__| (_) | | | |  _| | (_| |
+ /_/   \_\___/___/_|___/\__\__,_|_| |_|\__|  \____\___/|_| |_|_| |_|\__, |
+                                                                    |___/ 
+
+Gender of the assistant. Either 1 for female or 2 for male:
+1
+
+Speed at which the assistant talks at. Measured in words per minute. Average conversation is 125 - 150:
+170
+
+How loud the assistant is. Set in percentage so from 0 - 100:
+100
+
+How many seconds you have to say the command:
+3
