@@ -4,12 +4,34 @@ Customisable Ai assistant using Python 2
 ### Usage
 Use the steps below to customise the assistant. You can customise the hotword, gender, and speed. Then run the script to turn the assistant on.
 
+### Packages 
+```
+pip install audioop
+pip install pyaudio
+pip install wave
+pip install speech_recognition
+pip install playsound
+pip install pyttsx
+```
+
 ### How It Works
 - When sound is detected above the threshold it will start a by default 1.5 second sound recording using PyAudio
 - That sound clip will be then analysed by the speech recognition library by Anthony Zhang
 - If any of the words analysed match with the hot words a bleep will play and another by default 3-second clip will be recorded
 - If any of the words analysed match any of the keywords and or any of the modifier words they will activate there dedicated skill function
 - The assistant will then respond using the google text to speech engine
+
+### Improvments
+- Find a better way to search for hotword
+- Experiment with other TTS and STT engines
+
+### Author
+Inspired by 
+- Google Home(www.store.google.com/au/product/google_home)
+- Sid's E Classroom (www.youtube.com/channel/UCk4b2hVQa_lSBF8ccGo-yUw)
+
+Made by 
+- Jake Daffy (www.github.com/Gorbie8)
 
 # Customising
 
@@ -53,3 +75,4 @@ elif keyword == "joke":
         tts_engine.say(joke.tell_joke(modifier))
         tts_engine.runAndWait()
 ```
+
